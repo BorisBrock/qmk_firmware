@@ -1,0 +1,33 @@
+{
+    "keyboard_name": "BrockTKL RP2040",
+    "maintainer": "Boris Brock",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "bootloader_instructions": "Hold the boot switch and tap the reset switch, or hold the top-left key when plugging in the board.",
+    "board": "GENERIC_RP_RP2040",
+    "matrix_pins": {
+		"cols": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9", "GP10", "GP11", "GP12", "GP13", "GP14", "GP15", "GP16", "GP17"],
+		"rows": ["GP18", "GP19", "GP20", "GP21", "GP22", "GP24"]
+    },
+    "diode_direction": "COL2ROW",
+    "rgblight": {
+        "pin": "GP25",
+        "led_count": 1
+    },
+    "usb": {
+        "device_version": "1.0.0"
+    },
+    "features": {
+        "audio": false,
+        "backlight": false,
+        "bootmagic": false,
+        "command": false,
+        "console": false,
+        "encoder": true,
+        "extrakey": false,
+        "mousekey": false,
+        "nkro": false,
+        "rgb_matrix": false,
+        "rgblight": true
+    },
+}
