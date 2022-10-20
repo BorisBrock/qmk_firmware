@@ -15,6 +15,8 @@
   */
 #include QMK_KEYBOARD_H
 
+#include <keymap_german.h>
+
 
 enum layers {
     _BASE,
@@ -28,7 +30,7 @@ enum layers {
 #define KC_CUT   LCTL(KC_X)
 #define KC_UNDO  LCTL(KC_Z)
 #define KC_REDO  LCTL(KC_Y)
-#define KC_FMT   LCTL(LSFT(KC_I) // VSCode Linux only?
+#define KC_FMT   LCTL(LSFT(KC_I)) // VSCode Linux only?
 #define KC_SAVE  LCTL(KC_S)
 
 #define KC_LBR  LSFT(KC_9)    // Opening (left) round bracket
